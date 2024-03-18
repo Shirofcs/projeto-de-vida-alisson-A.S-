@@ -4,7 +4,7 @@ for (let i =0 <botoes.length; i++){
     botoes[i].onliclick=function () {
         for (let j=0; j < botoes.length; j++)
           botoes[j].classList.remove("ativo")
-          textosj]classList.remove("ativo")
+          textos[j]classList.remove("ativo")
  }
 
     botoes[i].classList.add("ativo")
